@@ -16,6 +16,10 @@
 		BFEADD7E27C2B749008E6242 /* AcceleromaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEADD7D27C2B749008E6242 /* AcceleromaterTests.swift */; };
 		BFEADD8827C2B749008E6242 /* AcceleromaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEADD8727C2B749008E6242 /* AcceleromaterUITests.swift */; };
 		BFEADD8A27C2B749008E6242 /* AcceleromaterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEADD8927C2B749008E6242 /* AcceleromaterUITestsLaunchTests.swift */; };
+		BFEADD9827C2B7E6008E6242 /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEADD9627C2B7E6008E6242 /* suiheiki.png */; };
+		BFEADD9927C2B7E6008E6242 /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEADD9727C2B7E6008E6242 /* awa.png */; };
+		BFEADD9B27C2BD17008E6242 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEADD9A27C2BD17008E6242 /* GameViewController.swift */; };
+		BFEADD9D27C2BD2E008E6242 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEADD9C27C2BD2E008E6242 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		BFEADD8327C2B749008E6242 /* AcceleromaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceleromaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEADD8727C2B749008E6242 /* AcceleromaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceleromaterUITests.swift; sourceTree = "<group>"; };
 		BFEADD8927C2B749008E6242 /* AcceleromaterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceleromaterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFEADD9627C2B7E6008E6242 /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
+		BFEADD9727C2B7E6008E6242 /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
+		BFEADD9A27C2BD17008E6242 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BFEADD9C27C2BD2E008E6242 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		BFEADD6527C2B748008E6242 /* Acceleromater */ = {
 			isa = PBXGroup;
 			children = (
+				BFEADD9727C2B7E6008E6242 /* awa.png */,
+				BFEADD9627C2B7E6008E6242 /* suiheiki.png */,
 				BFEADD6627C2B748008E6242 /* AppDelegate.swift */,
 				BFEADD6827C2B748008E6242 /* SceneDelegate.swift */,
 				BFEADD6A27C2B748008E6242 /* ViewController.swift */,
@@ -106,6 +116,8 @@
 				BFEADD6F27C2B749008E6242 /* Assets.xcassets */,
 				BFEADD7127C2B749008E6242 /* LaunchScreen.storyboard */,
 				BFEADD7427C2B749008E6242 /* Info.plist */,
+				BFEADD9A27C2BD17008E6242 /* GameViewController.swift */,
+				BFEADD9C27C2BD2E008E6242 /* ResultViewController.swift */,
 			);
 			path = Acceleromater;
 			sourceTree = "<group>";
@@ -233,6 +245,8 @@
 			files = (
 				BFEADD7327C2B749008E6242 /* LaunchScreen.storyboard in Resources */,
 				BFEADD7027C2B749008E6242 /* Assets.xcassets in Resources */,
+				BFEADD9827C2B7E6008E6242 /* suiheiki.png in Resources */,
+				BFEADD9927C2B7E6008E6242 /* awa.png in Resources */,
 				BFEADD6E27C2B748008E6242 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFEADD9D27C2BD2E008E6242 /* ResultViewController.swift in Sources */,
+				BFEADD9B27C2BD17008E6242 /* GameViewController.swift in Sources */,
 				BFEADD6B27C2B748008E6242 /* ViewController.swift in Sources */,
 				BFEADD6727C2B748008E6242 /* AppDelegate.swift in Sources */,
 				BFEADD6927C2B748008E6242 /* SceneDelegate.swift in Sources */,
